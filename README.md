@@ -1,13 +1,19 @@
-# Volume_Control_OpenCV
-Controlling volume of pc or laptop with OpenCV
-
+This project builds upon my previous Hand Tracking Project. It enables volume control on a laptop/PC by detecting the distance between two fingers using OpenCV and MediaPipe.
 
 https://github.com/user-attachments/assets/0634bf7a-2aaa-4ab7-9b6c-9ce1b6961211
 
 
-Reference : 'Murtaza's Workshop' youtube channel
+**Reference & Inspiration**
 
-opencv-python, mediapipe, numpy, time, pycaw and math libraries required
+Inspired by Murtaza's Workshop (YouTube channel).
 
-Library refernce: pycaw library br AndreMiras for changing volume according to tracking and other available in pycharm
+**Requirements**
 
+Ensure you have the following libraries installed:
+
+pip install opencv-python mediapipe numpy pycaw
+
+
+**Library Reference**
+
+pycaw (by AndreMiras) – Used for adjusting the system volume based on finger tracking.
